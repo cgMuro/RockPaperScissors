@@ -1,0 +1,144 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: #25272E;
+}
+
+header > h1 {
+    color: #25272E;
+    font-weight: bold;
+}
+
+.score-board {
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 4px;
+    font-size: 40px;
+}
+
+.badge {
+    background: #E2584D;
+    font-size: 1rem;
+}
+
+#user-label {
+    padding: 5px 5px 3px;
+    top: 1rem;
+    left: -2rem;
+}
+
+#comp-label {
+    padding: 5px 5px 3px;
+    top: 1.1rem;
+    right: -4rem;
+}
+
+.result {
+    font-size: 2rem;
+}
+
+#hr {
+    height: 2px;
+    background: white;
+}
+
+#action-message {
+    font-size: 1.3rem;
+}
+
+.choice {
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 0.2rem;
+    transition: all 0.3s ease;
+}
+
+i {
+    color: white;
+}
+
+#rock-icon {
+    padding: 10px 13.5px;
+    font-size: 3.3rem;
+}
+
+#paper-icon {
+    padding: 10px 10px;
+    font-size: 3.3rem;
+}
+
+#scissors-icon {
+    padding: 10px 10px;
+    font-size: 3.3rem;
+}
+
+@media (min-width: 992px) {
+    .choice:hover {
+        cursor: pointer;
+        opacity: 0.4;
+    }
+    #rock-icon {
+    padding: 10px 21px;
+    font-size: 8rem;
+    }
+    #paper-icon {
+    padding: 10px 10px;
+    font-size: 8rem;
+    }
+    #scissors-icon {
+    padding: 10px 10px;
+    font-size: 8rem;
+    }
+    .choice {
+        margin: 0 0.9rem;
+    }
+}
+
+
+
+/* #rules {
+    margin-top: 10rem;
+}
+
+#rules > button:hover {
+    background: transparent;
+    color: white;
+}
+
+
+.modal  p {
+    font-size: 0.9rem;
+}
+
+.modal span {
+    font-weight: bolder;
+}
+
+@media (min-width: 992px) {
+    #rules {
+        margin-top: 20rem;
+    }
+} */
+
+
+
+    /* Dynamic Classes */
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
